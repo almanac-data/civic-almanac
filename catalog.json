@@ -1,42 +1,48 @@
 {
-  "name": "Example Almanac",
-  "description": "An open, versioned index of public example data.",
-  "count": 1,
+  "name": "Civic Almanac",
+  "description": "An open, versioned index of public civic and government data.",
+  "count": 4,
   "by_status": {
-    "live": 1
+    "live": 4
   },
   "entries": [
     {
-      "id": "example-dataset",
-      "title": "Example Dataset (replace this with a real entry)",
-      "description": "A placeholder catalog entry so the index builds and CI passes on a fresh template. Delete this file once you have added your first real dataset.\n",
-      "publisher": "Example Agency",
+      "id": "eac-election-data",
+      "title": "EAC Election Administration & Voting Survey (EAVS)",
+      "description": "The U.S. Election Assistance Commission's biennial survey of how elections are administered nationwide — registration, turnout, mail ballots, polling places, and election technology.",
+      "publisher": "U.S. Election Assistance Commission (EAC)",
       "topics": [
-        "example"
+        "elections",
+        "voting",
+        "administration",
+        "turnout",
+        "eavs"
       ],
       "source": {
-        "canonical_url": "https://example.org",
+        "canonical_url": "https://www.eac.gov/research-and-data",
         "predecessor_url": null,
         "doi": null
       },
       "access": {
         "method": [
-          "web"
+          "web",
+          "bulk"
         ],
         "auth_required": false,
         "auth_note": null,
         "rate_limit": null
       },
       "format": [
-        "html"
+        "csv",
+        "xlsx"
       ],
       "coverage": {
-        "spatial": "global",
-        "temporal": "n/a",
-        "cadence": "static"
+        "spatial": "United States (states + territories)",
+        "temporal": "2004-present",
+        "cadence": "irregular"
       },
-      "license": "CC0-1.0",
-      "attribution": "Example Agency",
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Election Assistance Commission, EAVS",
       "archive": {
         "wayback_url": null,
         "cloud_mirror": null,
@@ -45,7 +51,150 @@
       "status": "live",
       "last_checked": "2026-06-29",
       "checksum": null,
-      "notes": "This is a template stub. See SETUP.md for how to stand up your own almanac vertical, then replace this entry with real datasets.\n"
+      "notes": "Conducted after each federal general election (biennial)."
+    },
+    {
+      "id": "fec-campaign-finance",
+      "title": "FEC Campaign Finance Data",
+      "description": "The Federal Election Commission's data on money raised and spent in US federal elections — candidate, committee, and individual contribution records, with an open API.",
+      "publisher": "U.S. Federal Election Commission (FEC)",
+      "topics": [
+        "elections",
+        "campaign-finance",
+        "contributions",
+        "committees"
+      ],
+      "source": {
+        "canonical_url": "https://www.fec.gov/data/",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "1980-present",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Federal Election Commission",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-29",
+      "checksum": null,
+      "notes": "Open API at api.open.fec.gov; bulk data downloads available."
+    },
+    {
+      "id": "federal-register",
+      "title": "Federal Register",
+      "description": "The daily journal of the US federal government — proposed and final rules, notices, and presidential documents from federal agencies, with a full open API.",
+      "publisher": "Office of the Federal Register (National Archives) and the Government Publishing Office",
+      "topics": [
+        "regulations",
+        "rules",
+        "notices",
+        "federal-register",
+        "rulemaking"
+      ],
+      "source": {
+        "canonical_url": "https://www.federalregister.gov/",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "json",
+        "csv",
+        "xml"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "1994-present (online)",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Office of the Federal Register / GPO",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-29",
+      "checksum": null,
+      "notes": "Open REST API at federalregister.gov/developers."
+    },
+    {
+      "id": "usaspending",
+      "title": "USAspending.gov",
+      "description": "The official open-data source for US federal spending — awards, contracts, grants, loans, and agency budgetary resources, with a full public API.",
+      "publisher": "U.S. Department of the Treasury, Bureau of the Fiscal Service",
+      "topics": [
+        "federal-spending",
+        "awards",
+        "contracts",
+        "grants",
+        "budget"
+      ],
+      "source": {
+        "canonical_url": "https://www.usaspending.gov/",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web",
+          "api",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "json"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "2001-present",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "USAspending.gov, U.S. Department of the Treasury",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-29",
+      "checksum": null,
+      "notes": "Open REST API (api.usaspending.gov); bulk award archives available."
     }
   ]
 }

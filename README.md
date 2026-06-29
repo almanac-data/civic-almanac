@@ -1,60 +1,38 @@
-# Almanac Template
+# Civic Almanac
 
-**A template for building an open, versioned catalog of public data — one that monitors itself for link rot.**
+**An open, versioned index of public civic and government data — so the record stays findable when the websites move.**
 
-This is the reusable engine behind [The Almanac](https://github.com/almanac-data): a way to
-build a **catalog, not a data warehouse**. Each entry is a small, human-reviewed,
+Civic Almanac is a **catalog, not a data warehouse**. Each entry is a small, human-reviewed,
 machine-validated record pointing to an authoritative public dataset — its canonical source,
 how to access it, where it's archived, and whether it is still reachable today. A daily job
-probes every source and opens a GitHub issue when one goes dark.
+re-checks every source and opens an issue when one goes dark.
 
-Use it to stand up a new vertical — `health-almanac`, `civic-almanac`, anything where valuable
-public data is scattered across institutional URLs that move, rot, or quietly disappear.
+It covers the data of self-government — federal spending, the census, elections and campaign finance, legislation, and the regulatory record — from sources like USAspending, the Census Bureau, the FEC, Congress.gov, and the Federal Register.
 
-## Start a new almanac (≈10 minutes)
+## What's in the catalog
 
-1. Click **Use this template → Create a new repository** under the `almanac-data` org.
-2. Edit **`almanac.config.yml`** — name, slug, description, homepage, domain. That's the only
-   file you must change; the schema, scripts, and CI all read from it.
-3. Work through **[SETUP.md](SETUP.md)** — a short post-instantiation checklist.
-4. Replace `catalog/example-dataset.yaml` with your first real entry and open a PR.
+`catalog.json` is the machine-readable index; browse `catalog/` for the human-readable source.
+The catalog starts with a few seed datasets (USAspending.gov, FEC Campaign Finance Data, Federal Register, EAC Election Administration & Voting Survey (EAVS)) and grows by contribution.
 
-## What's in the engine
+## Contributing
 
-```
-almanac.config.yml                 your vertical's identity — the one file you edit
-schema/catalog-entry.schema.json   the contract every entry must satisfy
-catalog/*.yaml                     one curated dataset per file (your data)
-catalog.json                       generated, machine-readable full index
-scripts/validate.py                schema + integrity checks (CI gate)
-scripts/build_index.py             catalog/*.yaml -> catalog.json
-scripts/check_links.py             reachability checker (read-only)
-scripts/alert_on_dead_links.py     turns the reachability report into GitHub issues
-.github/workflows/ci.yml           validates entries + stale-index guard on every PR
-.github/workflows/link-check.yml   daily reachability sweep + auto dead-link alerts
-.github/ISSUE_TEMPLATE/            no-code "suggest a dataset" / "report a dead link" forms
-```
+You don't need to write code: **[suggest a dataset](../../issues/new/choose)** with a short form
+and a curator will turn it into an entry. Prefer a PR? Adding a dataset is one file in `catalog/` —
+see [CONTRIBUTING.md](CONTRIBUTING.md). CI validates every entry against the schema.
+
+Stewards: see [docs/STEWARDING.md](docs/STEWARDING.md).
 
 ## The one rule
 
-**Catalog, don't host.** This repo maps data; it does not store data bytes. See
-[AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Using a built catalog
-
-```bash
-pip install -r requirements.txt
-python scripts/validate.py       # check every entry
-python scripts/build_index.py    # regenerate catalog.json
-python scripts/check_links.py    # report which sources are still reachable
-```
+**Catalog, don't host.** This repo maps data; it does not store data bytes. See [AGENTS.md](AGENTS.md).
 
 ## License
 
-- **Catalog data** (`catalog/`, `catalog.json`) — [CC0 1.0](LICENSE-DATA).
+- **Catalog data** (`catalog/`, `catalog.json`) — [CC0 1.0](LICENSE-DATA). Per-dataset licenses are
+  recorded in each entry's `license` field.
 - **Tooling** (`scripts/`, schema, CI) — [MIT](LICENSE-CODE).
 
 ---
 
-Part of [The Almanac](https://github.com/almanac-data) — a community-maintained commons for
-public data that's worth keeping findable.
+A vertical of [The Almanac](https://github.com/almanac-data) — a community-maintained commons for
+public data worth keeping findable. Built from [almanac-template](https://github.com/almanac-data/almanac-template).

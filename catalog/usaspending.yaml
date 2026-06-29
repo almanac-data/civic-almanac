@@ -1,0 +1,40 @@
+id: usaspending
+title: USAspending.gov
+description: The official open-data source for US federal spending — awards, contracts, grants, loans,
+  and agency budgetary resources, with a full public API.
+publisher: U.S. Department of the Treasury, Bureau of the Fiscal Service
+topics:
+- federal-spending
+- awards
+- contracts
+- grants
+- budget
+source:
+  canonical_url: https://www.usaspending.gov/
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- json
+coverage:
+  spatial: United States
+  temporal: 2001-present
+  cadence: daily
+license: public-domain (US Gov work)
+attribution: USAspending.gov, U.S. Department of the Treasury
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: Open REST API (api.usaspending.gov); bulk award archives available.

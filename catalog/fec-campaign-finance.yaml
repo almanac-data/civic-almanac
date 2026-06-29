@@ -1,0 +1,39 @@
+id: fec-campaign-finance
+title: FEC Campaign Finance Data
+description: The Federal Election Commission's data on money raised and spent in US federal elections
+  — candidate, committee, and individual contribution records, with an open API.
+publisher: U.S. Federal Election Commission (FEC)
+topics:
+- elections
+- campaign-finance
+- contributions
+- committees
+source:
+  canonical_url: https://www.fec.gov/data/
+  predecessor_url: null
+  doi: null
+access:
+  method:
+  - web
+  - api
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- json
+coverage:
+  spatial: United States
+  temporal: 1980-present
+  cadence: daily
+license: public-domain (US Gov work)
+attribution: U.S. Federal Election Commission
+archive:
+  wayback_url: null
+  cloud_mirror: null
+  mirror: null
+status: live
+last_checked: '2026-06-29'
+checksum: null
+notes: Open API at api.open.fec.gov; bulk data downloads available.
