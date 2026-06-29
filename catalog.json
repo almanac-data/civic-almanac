@@ -1,9 +1,9 @@
 {
   "name": "Civic Almanac",
   "description": "An open, versioned index of public civic and government data.",
-  "count": 5,
+  "count": 6,
   "by_status": {
-    "live": 5
+    "live": 6
   },
   "entries": [
     {
@@ -147,6 +147,51 @@
       "last_checked": "2026-06-29",
       "checksum": null,
       "notes": "Open REST API at federalregister.gov/developers."
+    },
+    {
+      "id": "gao-reports",
+      "title": "U.S. GAO Reports & Recommendations",
+      "description": "Reports, testimonies, and open recommendations from the Government Accountability Office — Congress's nonpartisan audit and oversight arm.",
+      "publisher": "U.S. Government Accountability Office (GAO)",
+      "topics": [
+        "oversight",
+        "audits",
+        "reports",
+        "recommendations"
+      ],
+      "source": {
+        "canonical_url": "https://www.gao.gov/reports-testimonies",
+        "predecessor_url": null,
+        "doi": null
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "pdf",
+        "html"
+      ],
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "varies",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Government Accountability Office",
+      "archive": {
+        "wayback_url": null,
+        "cloud_mirror": null,
+        "mirror": null
+      },
+      "status": "live",
+      "last_checked": "2026-06-29",
+      "checksum": null,
+      "notes": "gao.gov 403s non-browser agents — the checker retries with a browser UA."
     },
     {
       "id": "govinfo",
