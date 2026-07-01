@@ -1,4 +1,5 @@
 id: gao-reports
+type: dataset
 title: U.S. GAO Reports & Recommendations
 description: Reports, testimonies, and open recommendations from the Government Accountability Office
   — Congress's nonpartisan audit and oversight arm.
@@ -10,8 +11,6 @@ topics:
 - recommendations
 source:
   canonical_url: https://www.gao.gov/reports-testimonies
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -21,17 +20,20 @@ access:
 format:
 - pdf
 - html
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: varies
   cadence: daily
 license: public-domain (US Gov work)
 attribution: U.S. Government Accountability Office
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: gao.gov 403s non-browser agents — the checker retries with a browser UA.

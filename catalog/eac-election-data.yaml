@@ -1,4 +1,5 @@
 id: eac-election-data
+type: dataset
 title: EAC Election Administration & Voting Survey (EAVS)
 description: The U.S. Election Assistance Commission's biennial survey of how elections are administered
   nationwide — registration, turnout, mail ballots, polling places, and election technology.
@@ -11,8 +12,6 @@ topics:
 - eavs
 source:
   canonical_url: https://www.eac.gov/research-and-data
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -23,17 +22,20 @@ access:
 format:
 - csv
 - xlsx
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States (states + territories)
   temporal: 2004-present
   cadence: irregular
 license: public-domain (US Gov work)
 attribution: U.S. Election Assistance Commission, EAVS
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: Conducted after each federal general election (biennial).
