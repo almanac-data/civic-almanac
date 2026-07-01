@@ -8,6 +8,7 @@
   "entries": [
     {
       "id": "eac-election-data",
+      "type": "dataset",
       "title": "EAC Election Administration & Voting Survey (EAVS)",
       "description": "The U.S. Election Assistance Commission's biennial survey of how elections are administered nationwide — registration, turnout, mail ballots, polling places, and election technology.",
       "publisher": "U.S. Election Assistance Commission (EAC)",
@@ -19,9 +20,7 @@
         "eavs"
       ],
       "source": {
-        "canonical_url": "https://www.eac.gov/research-and-data",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.eac.gov/research-and-data"
       },
       "access": {
         "method": [
@@ -36,6 +35,17 @@
         "csv",
         "xlsx"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States (states + territories)",
         "temporal": "2004-present",
@@ -43,18 +53,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Election Assistance Commission, EAVS",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Conducted after each federal general election (biennial)."
     },
     {
       "id": "fec-campaign-finance",
+      "type": "dataset",
       "title": "FEC Campaign Finance Data",
       "description": "The Federal Election Commission's data on money raised and spent in US federal elections — candidate, committee, and individual contribution records, with an open API.",
       "publisher": "U.S. Federal Election Commission (FEC)",
@@ -65,9 +68,7 @@
         "committees"
       ],
       "source": {
-        "canonical_url": "https://www.fec.gov/data/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.fec.gov/data/"
       },
       "access": {
         "method": [
@@ -83,6 +84,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1980-present",
@@ -90,18 +102,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Federal Election Commission",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Open API at api.open.fec.gov; bulk data downloads available."
     },
     {
       "id": "federal-register",
+      "type": "dataset",
       "title": "Federal Register",
       "description": "The daily journal of the US federal government — proposed and final rules, notices, and presidential documents from federal agencies, with a full open API.",
       "publisher": "Office of the Federal Register (National Archives) and the Government Publishing Office",
@@ -113,9 +118,7 @@
         "rulemaking"
       ],
       "source": {
-        "canonical_url": "https://www.federalregister.gov/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.federalregister.gov/"
       },
       "access": {
         "method": [
@@ -131,6 +134,17 @@
         "csv",
         "xml"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1994-present (online)",
@@ -138,18 +152,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "Office of the Federal Register / GPO",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Open REST API at federalregister.gov/developers."
     },
     {
       "id": "gao-reports",
+      "type": "dataset",
       "title": "U.S. GAO Reports & Recommendations",
       "description": "Reports, testimonies, and open recommendations from the Government Accountability Office — Congress's nonpartisan audit and oversight arm.",
       "publisher": "U.S. Government Accountability Office (GAO)",
@@ -160,9 +167,7 @@
         "recommendations"
       ],
       "source": {
-        "canonical_url": "https://www.gao.gov/reports-testimonies",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.gao.gov/reports-testimonies"
       },
       "access": {
         "method": [
@@ -176,6 +181,17 @@
         "pdf",
         "html"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "varies",
@@ -183,18 +199,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Government Accountability Office",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "gao.gov 403s non-browser agents — the checker retries with a browser UA."
     },
     {
       "id": "govinfo",
+      "type": "dataset",
       "title": "GovInfo (GPO)",
       "description": "The Government Publishing Office's repository of authenticated federal publications — the Federal Register, US Code, Code of Federal Regulations, congressional documents, and more.",
       "publisher": "U.S. Government Publishing Office (GPO)",
@@ -206,9 +215,7 @@
         "federal-register"
       ],
       "source": {
-        "canonical_url": "https://www.govinfo.gov/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.govinfo.gov/"
       },
       "access": {
         "method": [
@@ -225,6 +232,17 @@
         "xml",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "1990s-present (varies)",
@@ -232,18 +250,11 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Government Publishing Office, GovInfo",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Bulk data and a public API."
     },
     {
       "id": "usaspending",
+      "type": "dataset",
       "title": "USAspending.gov",
       "description": "The official open-data source for US federal spending — awards, contracts, grants, loans, and agency budgetary resources, with a full public API.",
       "publisher": "U.S. Department of the Treasury, Bureau of the Fiscal Service",
@@ -255,9 +266,7 @@
         "budget"
       ],
       "source": {
-        "canonical_url": "https://www.usaspending.gov/",
-        "predecessor_url": null,
-        "doi": null
+        "canonical_url": "https://www.usaspending.gov/"
       },
       "access": {
         "method": [
@@ -273,6 +282,17 @@
         "csv",
         "json"
       ],
+      "status": "live",
+      "status_since": "2026-06-29",
+      "status_source": "auto",
+      "observed": {
+        "checked": "2026-06-29",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
       "coverage": {
         "spatial": "United States",
         "temporal": "2001-present",
@@ -280,14 +300,6 @@
       },
       "license": "public-domain (US Gov work)",
       "attribution": "USAspending.gov, U.S. Department of the Treasury",
-      "archive": {
-        "wayback_url": null,
-        "cloud_mirror": null,
-        "mirror": null
-      },
-      "status": "live",
-      "last_checked": "2026-06-29",
-      "checksum": null,
       "notes": "Open REST API (api.usaspending.gov); bulk award archives available."
     }
   ]

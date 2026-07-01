@@ -1,4 +1,5 @@
 id: govinfo
+type: dataset
 title: GovInfo (GPO)
 description: The Government Publishing Office's repository of authenticated federal publications — the
   Federal Register, US Code, Code of Federal Regulations, congressional documents, and more.
@@ -11,8 +12,6 @@ topics:
 - federal-register
 source:
   canonical_url: https://www.govinfo.gov/
-  predecessor_url: null
-  doi: null
 access:
   method:
   - web
@@ -25,17 +24,20 @@ format:
 - pdf
 - xml
 - json
+status: live
+status_since: '2026-06-29'
+status_source: auto
+observed:
+  checked: '2026-06-29'
+  reachable: null
+  http_status: null
+  final_url: null
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United States
   temporal: 1990s-present (varies)
   cadence: daily
 license: public-domain (US Gov work)
 attribution: U.S. Government Publishing Office, GovInfo
-archive:
-  wayback_url: null
-  cloud_mirror: null
-  mirror: null
-status: live
-last_checked: '2026-06-29'
-checksum: null
 notes: Bulk data and a public API.
