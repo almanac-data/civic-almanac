@@ -4,6 +4,9 @@ title: GovInfo (GPO)
 description: The Government Publishing Office's repository of authenticated federal publications — the
   Federal Register, US Code, Code of Federal Regulations, congressional documents, and more.
 publisher: U.S. Government Publishing Office (GPO)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - publications
 - us-code

@@ -4,6 +4,9 @@ title: EAC Election Administration & Voting Survey (EAVS)
 description: The U.S. Election Assistance Commission's biennial survey of how elections are administered
   nationwide — registration, turnout, mail ballots, polling places, and election technology.
 publisher: U.S. Election Assistance Commission (EAC)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - elections
 - voting

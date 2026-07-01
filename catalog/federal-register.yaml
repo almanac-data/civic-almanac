@@ -4,6 +4,9 @@ title: Federal Register
 description: The daily journal of the US federal government — proposed and final rules, notices, and presidential
   documents from federal agencies, with a full open API.
 publisher: Office of the Federal Register (National Archives) and the Government Publishing Office
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - regulations
 - rules

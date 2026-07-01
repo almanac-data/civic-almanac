@@ -4,6 +4,9 @@ title: USAspending.gov
 description: The official open-data source for US federal spending — awards, contracts, grants, loans,
   and agency budgetary resources, with a full public API.
 publisher: U.S. Department of the Treasury, Bureau of the Fiscal Service
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - federal-spending
 - awards

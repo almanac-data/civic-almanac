@@ -4,6 +4,9 @@ title: U.S. GAO Reports & Recommendations
 description: Reports, testimonies, and open recommendations from the Government Accountability Office
   — Congress's nonpartisan audit and oversight arm.
 publisher: U.S. Government Accountability Office (GAO)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - oversight
 - audits

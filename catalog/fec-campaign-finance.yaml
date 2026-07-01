@@ -4,6 +4,9 @@ title: FEC Campaign Finance Data
 description: The Federal Election Commission's data on money raised and spent in US federal elections
   — candidate, committee, and individual contribution records, with an open API.
 publisher: U.S. Federal Election Commission (FEC)
+jurisdiction:
+  scope: national
+  country: US
 topics:
 - elections
 - campaign-finance

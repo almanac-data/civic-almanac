@@ -12,6 +12,10 @@
       "title": "EAC Election Administration & Voting Survey (EAVS)",
       "description": "The U.S. Election Assistance Commission's biennial survey of how elections are administered nationwide — registration, turnout, mail ballots, polling places, and election technology.",
       "publisher": "U.S. Election Assistance Commission (EAC)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "elections",
         "voting",
@@ -61,6 +65,10 @@
       "title": "FEC Campaign Finance Data",
       "description": "The Federal Election Commission's data on money raised and spent in US federal elections — candidate, committee, and individual contribution records, with an open API.",
       "publisher": "U.S. Federal Election Commission (FEC)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "elections",
         "campaign-finance",
@@ -110,6 +118,10 @@
       "title": "Federal Register",
       "description": "The daily journal of the US federal government — proposed and final rules, notices, and presidential documents from federal agencies, with a full open API.",
       "publisher": "Office of the Federal Register (National Archives) and the Government Publishing Office",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "regulations",
         "rules",
@@ -160,6 +172,10 @@
       "title": "U.S. GAO Reports & Recommendations",
       "description": "Reports, testimonies, and open recommendations from the Government Accountability Office — Congress's nonpartisan audit and oversight arm.",
       "publisher": "U.S. Government Accountability Office (GAO)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "oversight",
         "audits",
@@ -207,6 +223,10 @@
       "title": "GovInfo (GPO)",
       "description": "The Government Publishing Office's repository of authenticated federal publications — the Federal Register, US Code, Code of Federal Regulations, congressional documents, and more.",
       "publisher": "U.S. Government Publishing Office (GPO)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "publications",
         "us-code",
@@ -258,6 +278,10 @@
       "title": "USAspending.gov",
       "description": "The official open-data source for US federal spending — awards, contracts, grants, loans, and agency budgetary resources, with a full public API.",
       "publisher": "U.S. Department of the Treasury, Bureau of the Fiscal Service",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
       "topics": [
         "federal-spending",
         "awards",
