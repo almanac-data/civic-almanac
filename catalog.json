@@ -43,10 +43,10 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-08-04",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.eac.gov/research-and-data",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -96,10 +96,10 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-08-04",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.fec.gov/data/",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -150,11 +150,13 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
-        "redirect_chain": [],
+        "checked": "2026-08-04",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://unblock.federalregister.gov/",
+        "redirect_chain": [
+          "https://unblock.federalregister.gov"
+        ],
         "fingerprint_result": "no-baseline"
       },
       "coverage": {
@@ -201,10 +203,10 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-08-04",
+        "reachable": true,
+        "http_status": 403,
+        "final_url": "https://www.gao.gov/reports-testimonies",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -256,10 +258,10 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-08-04",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.govinfo.gov/",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -310,10 +312,10 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-06-29",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-08-04",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.usaspending.gov/",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
