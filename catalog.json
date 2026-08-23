@@ -1,9 +1,9 @@
 {
   "name": "Civic Almanac",
   "description": "An open, versioned index of public civic and government data.",
-  "count": 6,
+  "count": 7,
   "by_status": {
-    "live": 6
+    "live": 7
   },
   "entries": [
     {
@@ -273,6 +273,56 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Government Publishing Office, GovInfo",
       "notes": "Bulk data and a public API."
+    },
+    {
+      "id": "nara-catalog",
+      "type": "dataset",
+      "title": "National Archives Catalog",
+      "description": "Online catalog of the holdings of the U.S. National Archives (NARA) — archival descriptions, authority records, digitized records, and public contributions, with a read/write API.",
+      "publisher": "U.S. National Archives and Records Administration (NARA)",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "archives",
+        "government-records",
+        "public-records",
+        "catalog",
+        "api"
+      ],
+      "source": {
+        "canonical_url": "https://catalog.archives.gov/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "api"
+        ],
+        "auth_required": true,
+        "auth_note": "Catalog API requires a free API key (x-api-key header)",
+        "rate_limit": null
+      },
+      "format": [
+        "json"
+      ],
+      "status": "live",
+      "observed": {
+        "checked": "2026-08-23",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null,
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
+      },
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "varies",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. National Archives and Records Administration (NARA)",
+      "notes": "Catalog API v2, docs at archives.gov/research/catalog/help/api. Requires requesting an API key."
     },
     {
       "id": "usaspending",
