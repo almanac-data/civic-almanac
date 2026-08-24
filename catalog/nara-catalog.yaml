@@ -20,8 +20,9 @@ access:
   method:
   - web
   - api
-  auth_required: true
-  auth_note: "Catalog API requires a free API key (x-api-key header)"
+  - bulk
+  auth_required: false
+  auth_note: "Catalog API requires a free API key (x-api-key header); web and bulk access do not"
   rate_limit: null
 format:
 - json
@@ -39,5 +40,4 @@ coverage:
   cadence: irregular
 license: public-domain (US Gov work)
 attribution: U.S. National Archives and Records Administration (NARA)
-notes: Catalog API v2, docs at archives.gov/research/catalog/help/api. Requires
-  requesting an API key.
+notes: "Catalog API v2, docs at archives.gov/research/catalog/help/api. Requires requesting an API key. Full catalog dataset on AWS Open Data (biannual): registry.opendata.aws/nara-national-archives-catalog"
