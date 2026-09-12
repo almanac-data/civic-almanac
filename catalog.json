@@ -43,7 +43,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.eac.gov/research-and-data",
@@ -96,7 +96,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.fec.gov/data/",
@@ -150,7 +150,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://unblock.federalregister.gov/",
@@ -203,7 +203,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 403,
         "final_url": "https://www.gao.gov/reports-testimonies",
@@ -258,7 +258,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.govinfo.gov/",
@@ -309,10 +309,10 @@
       ],
       "status": "live",
       "observed": {
-        "checked": "2026-08-23",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-09-12",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://catalog.archives.gov/",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -363,7 +363,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-09-12",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.usaspending.gov/",

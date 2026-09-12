@@ -28,10 +28,10 @@ format:
 - json
 status: live
 observed:
-  checked: '2026-08-23'
-  reachable: null
-  http_status: null
-  final_url: null
+  checked: '2026-09-12'
+  reachable: true
+  http_status: 200
+  final_url: https://catalog.archives.gov/
   redirect_chain: []
   fingerprint_result: no-baseline
 coverage:
