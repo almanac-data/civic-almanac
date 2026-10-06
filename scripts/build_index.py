@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build catalog.json from every catalog/*.yaml entry.
+"""Build catalog.json from every contributor catalog/*.yaml entry.
 
 Deterministic output (sorted by id) so diffs stay clean. The index name and
 description come from almanac.config.yml so this engine stays domain-agnostic.
@@ -16,6 +16,12 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog"
 CONFIG = ROOT / "almanac.config.yml"
 OUT = ROOT / "catalog.json"
+SCAFFOLD = "example-dataset.yaml"
+
+
+def _catalog_files():
+    """Return contributor entries, excluding the copyable starter scaffold."""
+    return sorted(p for p in CATALOG.glob("*.yaml") if p.name != SCAFFOLD)
 
 
 def _stringify_dates(obj):
@@ -38,7 +44,7 @@ def main() -> int:
     cfg = _config()
     entries = [
         _stringify_dates(yaml.safe_load(p.read_text()))
-        for p in sorted(CATALOG.glob("*.yaml"))
+        for p in _catalog_files()
     ]
     entries.sort(key=lambda e: e.get("id", ""))
 

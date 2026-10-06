@@ -17,6 +17,12 @@ from jsonschema import Draft202012Validator
 ROOT = Path(__file__).resolve().parent.parent
 SCHEMA = ROOT / "schema" / "catalog-entry.schema.json"
 CATALOG = ROOT / "catalog"
+SCAFFOLD = "example-dataset.yaml"
+
+
+def _catalog_files():
+    """Return contributor entries, excluding the copyable starter scaffold."""
+    return sorted(p for p in CATALOG.glob("*.yaml") if p.name != SCAFFOLD)
 
 
 def _stringify_dates(obj):
@@ -39,7 +45,7 @@ def main() -> int:
     errors: list[str] = []
     seen_ids: dict[str, str] = {}
 
-    files = sorted(CATALOG.glob("*.yaml"))
+    files = _catalog_files()
     if not files:
         print("no catalog entries found", file=sys.stderr)
         return 1

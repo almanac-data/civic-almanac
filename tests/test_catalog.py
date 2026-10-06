@@ -20,12 +20,23 @@ def test_validate_passes():
 
 
 def test_build_index_sorted_and_unique():
+    before = (ROOT / "catalog.json").read_text()
     subprocess.run([sys.executable, "scripts/build_index.py"], cwd=ROOT, check=True)
+    assert (ROOT / "catalog.json").read_text() == before
     data = json.loads((ROOT / "catalog.json").read_text())
     assert data["count"] == len(data["entries"])
     ids = [e["id"] for e in data["entries"]]
     assert ids == sorted(ids), "entries must be sorted by id"
     assert len(ids) == len(set(ids)), "ids must be unique"
+    assert "example-dataset" not in ids
+
+
+def test_example_dataset_is_scaffolding_and_excluded():
+    starter = (ROOT / "catalog" / "example-dataset.yaml").read_text()
+    assert "SCAFFOLD ONLY" in starter
+    assert "example-dataset" not in {
+        entry["id"] for entry in json.loads((ROOT / "catalog.json").read_text())["entries"]
+    }
 
 
 def test_schema_is_well_formed():

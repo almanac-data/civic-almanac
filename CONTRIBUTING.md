@@ -5,7 +5,9 @@ reviewable: **one dataset = one file = one pull request.**
 
 ## Add a dataset
 
-1. Copy `catalog/example-dataset.yaml` as a starting point.
+1. Copy `catalog/example-dataset.yaml` as a starting point. This is scaffolding only:
+   it is excluded from validation and `catalog.json`; replace its placeholders and
+   remove the starter file after creating your real entry.
 2. Create `catalog/<your-id>.yaml`. The filename (minus `.yaml`) **must** equal the entry's `id`,
    a kebab-case slug (e.g. `agency-sea-level-rise`).
 3. Fill in every required field (see `schema/catalog-entry.schema.json`). Required:

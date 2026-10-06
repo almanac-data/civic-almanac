@@ -35,9 +35,11 @@ In **`.github/ISSUE_TEMPLATE/config.yml`**, replace `YOUR-ALMANAC` with your rep
 
 ## 4. Add your first dataset
 
-1. Copy `catalog/example-dataset.yaml` to `catalog/<your-id>.yaml`.
+1. Copy `catalog/example-dataset.yaml` to `catalog/<your-id>.yaml`. The example file
+   is scaffolding only and is excluded from validation and index generation.
 2. Fill in every required field (the filename minus `.yaml` must equal the `id`).
-3. Verify the canonical URL yourself; set `last_checked` to today (`YYYY-MM-DD`).
+3. Verify the canonical URL yourself; set `observed.checked` to today (`YYYY-MM-DD`)
+   and leave the other observed fields null.
 4. Delete `catalog/example-dataset.yaml`.
 5. Regenerate and validate:
    ```bash
