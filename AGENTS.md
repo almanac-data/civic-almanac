@@ -108,8 +108,8 @@ python scripts/check_links.py --headless
 
 The headless rung only ever *upgrades* a blocked source to `ok`; it never flags one as dead.
 
-To add a dataset: copy `catalog/example-dataset.yaml`, fill every required field, validate,
-rebuild the index, open a PR. See `CONTRIBUTING.md` for the full checklist.
+To add a dataset: copy an existing entry such as `catalog/govinfo.yaml`, fill every required
+field, validate, rebuild the index, open a PR. See `CONTRIBUTING.md` for the full checklist.
 
 ## Licensing
 

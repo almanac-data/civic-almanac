@@ -13,8 +13,8 @@ body:
     id: dataset_id
     attributes:
       label: Dataset id (or name)
-      description: The catalog entry slug if you know it (e.g. `example-dataset`), otherwise the dataset name.
-      placeholder: "example-dataset"
+      description: The catalog entry slug if you know it (e.g. `govinfo`), otherwise the dataset name.
+      placeholder: "govinfo"
     validations:
       required: true
 

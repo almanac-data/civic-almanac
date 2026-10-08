@@ -35,19 +35,17 @@ In **`.github/ISSUE_TEMPLATE/config.yml`**, replace `YOUR-ALMANAC` with your rep
 
 ## 4. Add your first dataset
 
-1. Copy `catalog/example-dataset.yaml` to `catalog/<your-id>.yaml`. The example file
-   is scaffolding only and is excluded from validation and index generation.
+1. Copy an existing entry, such as `catalog/govinfo.yaml`, to `catalog/<your-id>.yaml`.
 2. Fill in every required field (the filename minus `.yaml` must equal the `id`).
 3. Verify the canonical URL yourself; set `observed.checked` to today (`YYYY-MM-DD`)
    and leave the other observed fields null.
-4. Delete `catalog/example-dataset.yaml`.
-5. Regenerate and validate:
+4. Regenerate and validate:
    ```bash
    pip install -r requirements.txt
    python scripts/validate.py
    python scripts/build_index.py
    ```
-6. Commit `catalog/<your-id>.yaml` **and** the updated `catalog.json`. Open a PR; CI gates it.
+5. Commit `catalog/<your-id>.yaml` **and** the updated `catalog.json`. Open a PR; CI gates it.
 
 ## 5. Turn on the monitor
 
