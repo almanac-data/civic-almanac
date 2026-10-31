@@ -1,0 +1,44 @@
+id: house-oversight-epstein-estate-records
+type: document
+title: House Oversight Committee Releases of Records Provided by the Epstein Estate (2025)
+description: |
+  The House Committee on Oversight and Government Reform's public releases of records produced to it by the estate of Jeffrey Epstein under a committee subpoena of 25 August 2025. Releases were made on 8 September 2025 and 12 November 2025, the latter "an additional 20,000 pages".
+publisher: U.S. House of Representatives, Committee on Oversight and Government Reform
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- congressional-investigation
+- subpoenaed-records
+- federal-records-release
+collection: epstein-records
+source:
+  canonical_url: https://oversight.house.gov/release/oversight-committee-releases-records-provided-by-the-epstein-estate-chairman-comer-provides-statement/
+access:
+  method:
+  - web
+  auth_required: false
+  auth_note: Files are hosted on Google Drive, with a Dropbox backup, both linked from the committee's release pages.
+  rate_limit: null
+format: []
+status: live
+status_since: '2026-10-31'
+status_source: curator
+observed:
+  checked: '2026-10-31'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States
+  temporal: not stated
+  cadence: irregular
+license: unverified — records produced to the Committee by the Epstein estate are not US Gov works; no reuse terms stated on the release pages
+attribution: U.S. House Committee on Oversight and Government Reform, records provided by the Epstein Estate
+notes: |
+  VERTICAL: congressional release; this probably belongs in civic-almanac rather than justice-almanac.
+  Human-verified 2026-10-31: HTTP 200 (plain curl with a browser User-Agent). The canonical page is "Oversight Committee Releases Records Provided by the Epstein Estate, Chairman Comer Provides Statement" ("Published: Sep 8, 2025"). It says the committee "released records provided by the estate of Jeffrey Epstein pursuant to Chairman James Comer's (R-Ky.) subpoena issued on August 25, 2025". It links the subpoena (https://oversight.house.gov/wp-content/uploads/2025/08/2025.08.25-Subpoena-and-Schedule-to-Epstein-Estate.pdf, HTTP 200), and says "The documents can be found here (backup here)": a Google Drive folder and a Dropbox folder.
+  Second release: "Oversight Committee Releases Additional Epstein Estate Documents" ("Published: Nov 12, 2025"; https://oversight.house.gov/release/oversight-committee-releases-additional-epstein-estate-documents/, HTTP 200). It says the committee "released an additional 20,000 pages of documents received from the estate", again with Google Drive and Dropbox links.
+  Hosting caveat: the committee's .gov pages are canonical, but the files sit in third-party consumer storage that the committee controls through links only. Those links are more fragile than the .gov page, so the link checker should also watch them. Search results mention a further estate set around 16 Sep 2025 and committee figures of "approximately 65,000 pages" across all releases. Neither was verified on a committee release page.
+  Authority: committee subpoena (25 Aug 2025). Redaction: neither release page states a redaction policy. The 8 Sep page says the committee withheld bank-account information ("The Committee will pursue these bank records"). No "last updated" date is shown.
+  Licence checked 2026-10-31: no licence or reuse terms on the release pages, and https://oversight.house.gov/copyright/ returns 404. The committee's press text is a federal government work; the estate's documents are not. Formats, page counts per folder and file contents were not checked, and the Drive and Dropbox folders were not opened.
