@@ -1,11 +1,62 @@
 {
   "name": "Civic Almanac",
   "description": "An open, versioned index of public civic and government data.",
-  "count": 8,
+  "count": 9,
   "by_status": {
-    "live": 8
+    "live": 9
   },
   "entries": [
+    {
+      "id": "census-voting-and-registration",
+      "type": "dataset",
+      "title": "Census Bureau Voting and Registration (CPS November Supplement)",
+      "description": "The Census Bureau's estimates of voter registration and turnout among U.S. citizens by age, sex, race, education, and other characteristics, from the Current Population Survey's November supplement in every national election since 1964.\n",
+      "publisher": "U.S. Census Bureau",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "elections",
+        "voter-turnout",
+        "registration",
+        "demographics"
+      ],
+      "source": {
+        "canonical_url": "https://www.census.gov/topics/public-sector/voting.html"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "xlsx",
+        "csv",
+        "pdf"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States (national and state)",
+        "temporal": "1964-present (national elections)",
+        "cadence": "irregular"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "U.S. Census Bureau, Current Population Survey, Voting and Registration Supplement",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page says \"For every national election since 1964, we collected data on the characteristics of American voters\". The tables page lists \"Voting and Registration in the Election of November 2024\" (April 2025). It notes \"The P20 detailed tables are released every two years following national level elections\" and that tables come in XLS, CSV, and PDF. Releases follow the two-year election cycle; the schema has no biennial value, so cadence is irregular.\n"
+    },
     {
       "id": "congress-gov-api",
       "type": "dataset",
