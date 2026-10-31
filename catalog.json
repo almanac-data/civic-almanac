@@ -1,9 +1,9 @@
 {
   "name": "Civic Almanac",
   "description": "An open, versioned index of public civic and government data.",
-  "count": 9,
+  "count": 10,
   "by_status": {
-    "live": 9
+    "live": 10
   },
   "entries": [
     {
@@ -373,6 +373,56 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Government Publishing Office, GovInfo",
       "notes": "Bulk data and a public API."
+    },
+    {
+      "id": "international-idea-voter-turnout",
+      "type": "dataset",
+      "title": "International IDEA Voter Turnout Database",
+      "description": "The most comprehensive global collection of voter turnout statistics for presidential and parliamentary elections since 1945, plus European Parliament elections, using both registered voters and voting-age population as bases.\n",
+      "publisher": "International Institute for Democracy and Electoral Assistance (International IDEA)",
+      "jurisdiction": {
+        "scope": "multilateral",
+        "country": null
+      },
+      "topics": [
+        "elections",
+        "voter-turnout",
+        "democracy",
+        "global"
+      ],
+      "source": {
+        "canonical_url": "https://www.idea.int/data-tools/data/voter-turnout-database"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": "Export may require accepting International IDEA's release agreement.",
+        "rate_limit": null
+      },
+      "format": [
+        "xlsx",
+        "csv"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "global (countries and political entities)",
+        "temporal": "1945-present",
+        "cadence": "irregular"
+      },
+      "license": "© International IDEA, all rights reserved; use governed by IDEA's terms and data release agreement",
+      "attribution": "International IDEA, Voter Turnout Database",
+      "notes": "Human-verified 2026-10-31: HTTP 200. The page calls it \"the most comprehensive global collection of voter turnout statistics from presidential and parliamentary elections since 1945\", including European Parliament elections, with an \"Export data\" option. The footer reads \"© 2026 International IDEA. All Rights Reserved\" and links a \"Release Agreement Form\", so this is not open-licensed. It is cataloged for authority; reusers should read IDEA's terms. Jurisdiction is multilateral because International IDEA is an intergovernmental organization of member states. The export formats and the release-agreement requirement weren't checked.\n"
     },
     {
       "id": "nara-catalog",
