@@ -1,8 +1,9 @@
 {
   "name": "Civic Almanac",
   "description": "An open, versioned index of public civic and government data.",
-  "count": 10,
+  "count": 11,
   "by_status": {
+    "frozen": 1,
     "live": 10
   },
   "entries": [
@@ -158,6 +159,55 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Election Assistance Commission, EAVS",
       "notes": "Conducted after each federal general election (biennial)."
+    },
+    {
+      "id": "european-parliament-election-results-2024",
+      "type": "dataset",
+      "title": "European Parliament Election Results 2024",
+      "description": "The European Parliament's official results site for the 2024 European elections: results by country and political group, seat distribution, and turnout, with the constitutive session composition.\n",
+      "publisher": "European Parliament",
+      "jurisdiction": {
+        "scope": "regional-bloc",
+        "country": null
+      },
+      "topics": [
+        "elections",
+        "european-parliament",
+        "europe"
+      ],
+      "source": {
+        "canonical_url": "https://results.elections.europa.eu/en/"
+      },
+      "access": {
+        "method": [
+          "web",
+          "bulk"
+        ],
+        "auth_required": false,
+        "auth_note": null,
+        "rate_limit": null
+      },
+      "format": [
+        "csv",
+        "xlsx"
+      ],
+      "status": "frozen",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "EU member states",
+        "temporal": "2024 European elections (with historical results back to 1979 on the site)",
+        "cadence": "static"
+      },
+      "license": "unverified — European Parliament legal notice not checked this session",
+      "attribution": "European Parliament, European election results 2024",
+      "notes": "Human-verified 2026-10-31: HTTP 200 (redirects to /en/). The disclaimer reads \"The final update to data on this website took place on 6 September 2024\", which is a publisher declaration that the data is static, so status is frozen. For the current composition of political groups, the site points to the MEPs section of the EP website. Three things weren't checked: the historical results back to 1979, the download formats, and the license.\n"
     },
     {
       "id": "fec-campaign-finance",
