@@ -35,7 +35,8 @@ coverage:
   spatial: EU member states
   temporal: 2024 European elections (with historical results back to 1979 on the site)
   cadence: static
-license: unverified — European Parliament legal notice not checked this session
+license: EP legal notice — reuse authorised, including commercial, with the source acknowledged; not a Creative Commons licence (see notes)
 attribution: European Parliament, European election results 2024
 notes: |
-  Human-verified 2026-10-31: HTTP 200 (redirects to /en/). The disclaimer reads "The final update to data on this website took place on 6 September 2024", which is a publisher declaration that the data is static, so status is frozen. For the current composition of political groups, the site points to the MEPs section of the EP website. Three things weren't checked: the historical results back to 1979, the download formats, and the license.
+  Human-verified 2026-10-31: HTTP 200 (redirects to /en/). The disclaimer reads "The final update to data on this website took place on 6 September 2024", which is a publisher declaration that the data is static, so status is frozen. For the current composition of political groups, the site points to the MEPs section of the EP website. The historical results back to 1979 and the download formats weren't checked.
+  Licence checked 2026-10-31: the site's legal notice (https://elections.europa.eu/en/legal-notice/) says reuse of EU-owned textual data and multimedia "is authorised, for personal use or for further non-commercial or commercial dissemination, provided that the entire item is reproduced and the source is acknowledged", adds that "the reuse of certain data may be subject to different conditions in some instances", and asks that a partial reproduction cite the URL. It is a site-wide notice; the download-datasheets page (json/csv) states no licence of its own.
