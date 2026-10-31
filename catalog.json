@@ -1,11 +1,60 @@
 {
   "name": "Civic Almanac",
   "description": "An open, versioned index of public civic and government data.",
-  "count": 7,
+  "count": 8,
   "by_status": {
-    "live": 7
+    "live": 8
   },
   "entries": [
+    {
+      "id": "congress-gov-api",
+      "type": "dataset",
+      "title": "Congress.gov API",
+      "description": "The Library of Congress's public API for U.S. legislative data from Congress.gov — bills, amendments, actions, members, committees, congressional records, and more.\n",
+      "publisher": "Library of Congress",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "legislation",
+        "congress",
+        "bills",
+        "api"
+      ],
+      "source": {
+        "canonical_url": "https://api.congress.gov/"
+      },
+      "access": {
+        "method": [
+          "api"
+        ],
+        "auth_required": true,
+        "auth_note": "Free API key from api.data.gov.",
+        "rate_limit": null
+      },
+      "format": [
+        "json",
+        "xml"
+      ],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States Congress",
+        "temporal": "multiple Congresses (coverage varies by data type)",
+        "cadence": "daily"
+      },
+      "license": "public-domain (US Gov work)",
+      "attribution": "Library of Congress, Congress.gov",
+      "notes": "Human-verified 2026-10-31: HTTP 200 for api.congress.gov. It says \"Congress.gov shares its application programming interface (API) with the public\" and asks users to \"Sign up for an API key from api.data.gov\". It documents /v3 endpoints such as GET /bill. The www.congress.gov web site returned 403 (bot protection) to curl this session; civic-almanac runs the headless checker. Two things come from the API's usual documentation and weren't checked: the daily update cadence and the xml format option.\n"
+    },
     {
       "id": "eac-election-data",
       "type": "dataset",
