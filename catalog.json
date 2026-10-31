@@ -456,12 +456,31 @@
       "status": "live",
       "status_since": "2026-10-31",
       "status_source": "curator",
+      "fingerprint": {
+        "sha256": null,
+        "etag": null,
+        "content_length": null,
+        "captured": "2026-10-31",
+        "algo": "sha256",
+        "lead_hash": "c345eb9d619d0e925b5b6a05190d16c34840ee925c0899182c6bc83bd7fa1489",
+        "lead_algo": "sha256"
+      },
       "observed": {
         "checked": "2026-10-31",
         "reachable": null,
         "http_status": null,
         "final_url": null
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261028055724/https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-28",
+          "notes": "Wayback capture made while the resource was live."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "not stated",
@@ -502,12 +521,31 @@
       "status": "live",
       "status_since": "2026-10-31",
       "status_source": "curator",
+      "fingerprint": {
+        "sha256": null,
+        "etag": null,
+        "content_length": null,
+        "captured": "2026-10-31",
+        "algo": "sha256",
+        "lead_hash": "9e2bc8e604e8eb03924a067b47c924134d9995b216c3c14214c37a2bc3748a9c",
+        "lead_algo": "sha256"
+      },
       "observed": {
         "checked": "2026-10-31",
         "reachable": null,
         "http_status": null,
         "final_url": null
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20260930074707/https://oversight.house.gov/release/oversight-committee-releases-records-provided-by-the-epstein-estate-chairman-comer-provides-statement/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-09-30",
+          "notes": "Wayback capture made while the resource was live."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "not stated",
