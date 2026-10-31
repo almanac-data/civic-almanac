@@ -1,10 +1,10 @@
 {
   "name": "Civic Almanac",
   "description": "An open, versioned index of public civic and government data.",
-  "count": 11,
+  "count": 12,
   "by_status": {
     "frozen": 1,
-    "live": 10
+    "live": 11
   },
   "entries": [
     {
@@ -423,6 +423,53 @@
       "license": "public-domain (US Gov work)",
       "attribution": "U.S. Government Publishing Office, GovInfo",
       "notes": "Bulk data and a public API."
+    },
+    {
+      "id": "house-oversight-epstein-doj-records",
+      "type": "document",
+      "title": "House Oversight Committee Release of Epstein Records Provided by the Department of Justice (2 September 2025)",
+      "description": "The House Committee on Oversight and Government Reform's release of 33,295 pages of Epstein-related records produced to it by the U.S. Department of Justice under a committee subpoena of 5 August 2025. DOJ's own Epstein Library links to this release as its \"House Disclosures\".\n",
+      "publisher": "U.S. House of Representatives, Committee on Oversight and Government Reform",
+      "jurisdiction": {
+        "scope": "national",
+        "country": "US"
+      },
+      "topics": [
+        "congressional-investigation",
+        "subpoenaed-records",
+        "federal-records-release",
+        "victim-privacy-redaction"
+      ],
+      "collection": "epstein-records",
+      "source": {
+        "canonical_url": "https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/"
+      },
+      "access": {
+        "method": [
+          "web"
+        ],
+        "auth_required": false,
+        "auth_note": "Files are hosted on Google Drive, with a Dropbox backup, both linked from the committee's release page.",
+        "rate_limit": null
+      },
+      "format": [],
+      "status": "live",
+      "status_since": "2026-10-31",
+      "status_source": "curator",
+      "observed": {
+        "checked": "2026-10-31",
+        "reachable": null,
+        "http_status": null,
+        "final_url": null
+      },
+      "coverage": {
+        "spatial": "United States",
+        "temporal": "not stated",
+        "cadence": "irregular"
+      },
+      "license": "unverified — DOJ-produced records (mixed; DOJ-authored portions are US Gov works, third-party and court material is not); no reuse terms stated on the release page",
+      "attribution": "U.S. House Committee on Oversight and Government Reform, Epstein records provided by the Department of Justice",
+      "notes": "VERTICAL: congressional release; this probably belongs in civic-almanac. It is cross-linked from DOJ's Epstein Library, so justice-almanac may want a pointer.\nHuman-verified 2026-10-31: HTTP 200 (plain curl with a browser User-Agent). The page \"Oversight Committee Releases Epstein Records Provided by the Department of Justice\" is \"Published: Sep 2, 2025\". It says the committee \"released 33,295 pages of Epstein-related records that were provided by the U.S. Department of Justice. On August 5, Chairman Comer issued a subpoena for records related to Mr. Jeffrey Epstein\". It links \"Epstein-related documents can be found here\" (Google Drive) and \"Backup access can be found here\" (Dropbox).\nAuthority: committee subpoena of 5 Aug 2025. Redaction, as stated on the page: \"the Department of Justice has indicated it will continue producing those records while ensuring the redaction of victim identities and any child sexual abuse material\", so redaction was done by DOJ before production. No \"last updated\" date is shown.\nHosting caveat: the files sit in third-party consumer storage linked from the .gov page, so the link checker should watch the Drive and Dropbox links as well.\nLicence checked 2026-10-31: no licence on the page, and https://oversight.house.gov/copyright/ returns 404. Folder contents, formats and file counts were not checked, and the Drive and Dropbox folders were not opened.\n"
     },
     {
       "id": "international-idea-voter-turnout",
