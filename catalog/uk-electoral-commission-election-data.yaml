@@ -1,0 +1,40 @@
+id: uk-electoral-commission-election-data
+type: dataset
+title: UK Electoral Commission Research, Reports and Data
+description: |
+  The Electoral Commission's data and reports on UK elections and referendums: electorate size, turnout and rejected ballots collected after each poll, electoral registration research, electoral fraud data, and public attitudes surveys.
+publisher: Electoral Commission (UK)
+jurisdiction:
+  scope: national
+  country: GB
+topics:
+- elections
+- turnout
+- electoral-registration
+- uk
+source:
+  canonical_url: https://www.electoralcommission.org.uk/research-reports-and-data
+access:
+  method:
+  - web
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format: []
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United Kingdom (England, Scotland, Wales, Northern Ireland)
+  temporal: varies by election (2026 Scottish Parliament, Senedd and English local election reports seen)
+  cadence: event
+license: unverified — no copyright or reuse terms page could be read on electoralcommission.org.uk (Cloudflare challenge; /copyright returned 404)
+attribution: Electoral Commission, Research, reports and data
+notes: |
+  Human-verified 2026-11-01 in headless Chromium: HTTP 200 once the Cloudflare check passed (curl and a first Chromium load got 403 "Just a moment..."; later loads in the same check were intermittent). The page says "Following elections and referendums, we collect data such as the size of the electorate, turnout and rejected ballot papers" and lists "Report on the 2026 England mayoral and local government elections", "Report on the 2026 Scottish Parliament election" and "Report on the 2026 Senedd elections", plus sections "Election and referendum data and reports", "Electoral registration research" and "Electoral fraud data". The election data sub-page stayed behind Cloudflare for me, so I did not see the data files or their formats. Party finance is cataloged separately as uk-electoral-commission-political-finance.
+  Licence checked 2026-11-01: not verified. The footer shows only "© 2026 Electoral Commission"; /copyright returned 404 and /site-map "Access denied", and no terms page is linked from the footer (Contact, Media centre, About us, FOI, Accessibility, Privacy policy, Publication scheme, Procurement). Open Knowledge's 2014-15 Open Data Index pages say the Commission moved its election data to the Open Government Licence in October 2013, but that is secondary and old, so no licence is asserted.
