@@ -1,0 +1,43 @@
+id: us-lobbying-disclosure-act-filings
+type: dataset
+title: U.S. Lobbying Disclosure Act Filings (LDA.gov)
+description: |
+  All electronically filed federal lobbying registrations and quarterly activity reports (LD-1, LD-2) and political contribution reports (LD-203) under the Lobbying Disclosure Act, published jointly by the Secretary of the Senate and the Clerk of the House, with a REST API.
+publisher: U.S. Senate Office of Public Records and Clerk of the U.S. House of Representatives
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- lobbying
+- disclosure
+- congress
+- political-contributions
+source:
+  canonical_url: https://lda.gov/api/
+access:
+  method:
+  - web
+  - api
+  auth_required: false
+  auth_note: Optional free API key; anonymous use is allowed at a lower rate limit.
+  rate_limit: 120 requests/minute with an API key; 15/minute anonymous
+format:
+- json
+- pdf
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (federal lobbying)
+  temporal: filings from 1999; LD-203 contributions from 2008
+  cadence: event
+license: LDA.gov API Terms of Service — no controls on end use; users must cite the access date and a Senate Office of Public Records disclaimer (not a named licence; see notes)
+attribution: 'Lobbying Disclosure Act filings, LDA.gov, retrieved <date>. "Senate Office of Public Records cannot vouch for the data or analyses derived from these data after the data have been retrieved from LDA.gov."'
+notes: |
+  Human-verified 2026-11-01 in headless Chromium: HTTP 200 for https://lda.gov/api/. The issue's https://lda.senate.gov/ now belongs to LDA.gov: lda.senate.gov/api/ answers a 301 to https://lda.gov/api/. The roots lda.senate.gov and lda.gov returned the Senate's "Senate.gov - Unauthorized" bot block (403) to curl and to headless Chromium, so the API landing page, which answered, is cataloged. It says "A researcher who is interested in downloading the lobbying documents database may do so by utilizing our REST API" and covers LD-1/LD-2 and LD-203 (the contributions database starts with filings due "by July 30, 2008"). An anonymous request to https://lda.gov/api/v1/filings/?page_size=1 returned HTTP 200 JSON with "count":2002757; the oldest filing returned was a 1999 mid-year report, linked as a PDF document. The search interface on the root was not seen because of the block.
+  Licence checked 2026-11-01: the API Terms of Service (https://lda.gov/api/tos/, last modified August 22nd, 2019) say "Data accessed through LDA.gov do not, and should not, include controls over its end use", ask users to "cite the date that data were accessed or retrieved", and require the statement "Senate Office of Public Records cannot vouch for the data or analyses derived from these data after the data have been retrieved from LDA.gov"; users "may not modify or falsely represent content accessed through LDA.gov and still cite the source as LDA.gov". The filings are written by registrants; no public-domain statement was found.
