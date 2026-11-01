@@ -1,0 +1,43 @@
+id: uk-electoral-commission-political-finance
+type: dataset
+title: UK Electoral Commission Political Finance Database
+description: |
+  The Electoral Commission's searchable registers of UK political parties, non-party campaigners and referendum participants, with its database of reported donations, loans, election and referendum spending, and party accounts, downloadable as CSV.
+publisher: Electoral Commission (UK)
+jurisdiction:
+  scope: national
+  country: GB
+topics:
+- party-finance
+- donations
+- election-spending
+- uk
+source:
+  canonical_url: https://search.electoralcommission.org.uk/
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- csv
+- pdf
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United Kingdom (GB and NI registers)
+  temporal: varies by register (Q2 2026 donations and October 2026 regulated donee donations latest seen)
+  cadence: quarterly
+license: unverified — the search site and electoralcommission.org.uk show no reuse terms that could be read
+attribution: Electoral Commission, political finance database
+notes: |
+  Human-verified 2026-11-01: HTTP 200 (curl and headless Chromium); the root redirects to a default donations search. The page says "This page allows you to search the registers of Political Parties, Non-party campaigners & Referendum Participants, and our database of donations, loans, election/referendum spending & party accounts", with common searches such as "Q2 2026 Donations to Parties", "Regulated Donee Donations October 2026" and "Party spending in the 2026 Scottish Parliament Election". Its export links go to /api/csv/Donations and /api/pdf/Donations; a test request to the CSV endpoint returned HTTP 200 text/csv with a header row (ECRef, RegulatedEntityName, Value, AcceptedDate, DonorName, ...) and Q2 2026 rows. That endpoint is the site's export, not a documented public API, so access is recorded as web and bulk. Party donations are reported quarterly; spending returns follow each election.
+  Licence checked 2026-11-01: not verified. The search site footer shows "© 2026 The Electoral Commission" and links only to Accessibility, FAQs, Site map and Privacy notice on the main site, which sits behind a Cloudflare challenge; no copyright or reuse statement was found. See also uk-electoral-commission-election-data.
