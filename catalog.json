@@ -44,10 +44,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.census.gov/topics/public-sector/voting.html",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (national and state)",
@@ -93,10 +95,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://api.congress.gov/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States Congress",
@@ -143,9 +147,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://catalog.data.gov/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (federal, with some state, local and university sources)",
@@ -193,7 +199,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.eac.gov/research-and-data",
@@ -246,9 +252,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://transparency-register.europa.eu/index_en",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "European Union institutions (registrants worldwide)",
@@ -294,10 +302,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://results.elections.europa.eu/en/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "EU member states",
@@ -345,7 +355,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.fec.gov/data/",
@@ -399,7 +409,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://unblock.federalregister.gov/",
@@ -452,9 +462,9 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
-        "http_status": 403,
+        "http_status": 200,
         "final_url": "https://www.gao.gov/reports-testimonies",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
@@ -507,7 +517,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.govinfo.gov/",
@@ -565,10 +575,12 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "recovery": [
         {
@@ -630,10 +642,12 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://oversight.house.gov/release/oversight-committee-releases-records-provided-by-the-epstein-estate-chairman-comer-provides-statement/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "recovery": [
         {
@@ -690,10 +704,12 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-10-31",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.idea.int/data-tools/data/voter-turnout-database",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "global (countries and political entities)",
@@ -739,10 +755,10 @@
       ],
       "status": "live",
       "observed": {
-        "checked": "2026-08-23",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null,
+        "checked": "2026-11-01",
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://catalog.archives.gov/",
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
@@ -792,9 +808,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://www.regulations.gov/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (participating federal agencies)",
@@ -838,9 +856,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 403,
+        "final_url": "https://www.electoralcommission.org.uk/research-reports-and-data",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United Kingdom (England, Scotland, Wales, Northern Ireland)",
@@ -888,9 +908,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://search.electoralcommission.org.uk/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United Kingdom (GB and NI registers)",
@@ -938,9 +960,11 @@
       "status_source": "curator",
       "observed": {
         "checked": "2026-11-01",
-        "reachable": null,
-        "http_status": null,
-        "final_url": null
+        "reachable": true,
+        "http_status": 200,
+        "final_url": "https://lda.gov/api/",
+        "redirect_chain": [],
+        "fingerprint_result": "no-baseline"
       },
       "coverage": {
         "spatial": "United States (federal lobbying)",
@@ -989,7 +1013,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-08-04",
+        "checked": "2026-11-01",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.usaspending.gov/",
