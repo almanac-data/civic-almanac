@@ -1,0 +1,43 @@
+id: eu-transparency-register
+type: dataset
+title: EU Transparency Register
+description: |
+  The joint register of the European Parliament, Council and Commission listing 'interest representatives' (organisations, associations, groups and self-employed individuals) who seek to influence EU policy, with their declared interests, clients, and resources spent; the full list is published as a daily XML export.
+publisher: European Parliament, Council of the EU and European Commission (secretariat managed by the European Commission)
+jurisdiction:
+  scope: regional-bloc
+  country: null
+topics:
+- lobbying
+- interest-representatives
+- european-union
+- transparency
+source:
+  canonical_url: https://transparency-register.europa.eu/index_en
+access:
+  method:
+  - web
+  - bulk
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- xml
+- xlsx
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: European Union institutions (registrants worldwide)
+  temporal: current register, with archived snapshots from 2016 on data.europa.eu
+  cadence: daily
+license: CC-BY-4.0 (European Commission reuse policy, Decision 2011/833/EU; EU legal notice linked from the register footer, and data.europa.eu tags the dataset "European Commission reuse notice")
+attribution: European Union, Transparency Register
+notes: |
+  Human-verified 2026-11-01: HTTP 200. The root https://transparency-register.europa.eu/ goes through a language selector to /index_en, which is cataloged. It says "The Transparency register is a database listing 'interest representatives' ... who carry out activities to influence the EU policy and decision-making process", with news items "Transparency register Annual Report 2025" and new conditionality rules "From 1 September 2025". The search page lists organisations with their identification numbers. The statistics page says "Download (in Open Government format) the complete list of registered organisations or of persons accredited for access to the European Parliament's buildings from the European data portal". The XML link (https://transparency-register.europa.eu/odplastorganisationxml_en) redirects to https://ec.europa.eu/transparencyregister/public/files/ODP/download/XML/latest, which returned a 118 MB XML file with exportDate 2026-10-31T21:00 and numberOfIR 18019. The data.europa.eu record "transparency-register" (publisher Secretariat-General, modified 2026-08-24) also holds yearly XML/XLS(X) snapshots; daily cadence is inferred from the export timestamp.
+  Licence checked 2026-11-01: the register's footer links "Legal notice" to https://european-union.europa.eu/legal-notice_en, which says "Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence" and that the reuse policy is implemented by Commission Decision 2011/833/EU. On data.europa.eu, the dataset's distributions carry the licence "European Commission reuse notice" (eli/dec/2011/833). That is a site-wide notice, not one specific to the register data, and registrants supply the content; no register-specific data licence was found. The organisation-level API, if any, was not checked.
