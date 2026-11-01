@@ -29,9 +29,11 @@ status_since: '2026-11-01'
 status_source: curator
 observed:
   checked: '2026-11-01'
-  reachable: null
-  http_status: null
-  final_url: null
+  reachable: true
+  http_status: 200
+  final_url: https://search.electoralcommission.org.uk/
+  redirect_chain: []
+  fingerprint_result: no-baseline
 coverage:
   spatial: United Kingdom (GB and NI registers)
   temporal: varies by register (Q2 2026 donations and October 2026 regulated donee donations latest seen)

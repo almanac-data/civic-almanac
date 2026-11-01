@@ -27,9 +27,9 @@ status: live
 status_since: '2026-06-29'
 status_source: auto
 observed:
-  checked: '2026-08-04'
+  checked: '2026-11-01'
   reachable: true
-  http_status: 403
+  http_status: 200
   final_url: https://www.gao.gov/reports-testimonies
   redirect_chain: []
   fingerprint_result: no-baseline
