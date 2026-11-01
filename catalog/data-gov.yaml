@@ -1,0 +1,42 @@
+id: data-gov
+type: dataset
+title: Data.gov Federal Open Data Catalog (metadata)
+description: |
+  The US government's central metadata catalog, run by GSA: dataset records harvested from federal agencies' metadata inventories (plus some state, local and university sources), searchable on catalog.data.gov and through a public JSON API. It is an index of other publishers' datasets, not a publisher of data itself.
+publisher: U.S. General Services Administration (Technology Transformation Services)
+jurisdiction:
+  scope: national
+  country: US
+topics:
+- open-data
+- data-catalog
+- metadata
+- federal-government
+source:
+  canonical_url: https://catalog.data.gov/
+access:
+  method:
+  - web
+  - api
+  auth_required: false
+  auth_note: null
+  rate_limit: null
+format:
+- json
+status: live
+status_since: '2026-11-01'
+status_source: curator
+observed:
+  checked: '2026-11-01'
+  reachable: null
+  http_status: null
+  final_url: null
+coverage:
+  spatial: United States (federal, with some state, local and university sources)
+  temporal: current catalog (launched May 2009)
+  cadence: daily
+license: public-domain (US Gov work) for the catalog's federal metadata; each listed dataset carries its own terms in its "Access & Use" section (see notes)
+attribution: Data.gov, U.S. General Services Administration
+notes: |
+  Human-verified 2026-11-01: HTTP 200 for https://catalog.data.gov/ (and for https://data.gov/, which reads "535,252 DATASETS AVAILABLE" and "Try the next-generation Data Catalog at catalog.data.gov"). The catalog page showed "535,269 datasets available on Data.gov". This entry catalogs the metadata catalog only. The user guide (https://data.gov/user-guide/) says "Data.gov is a metadata catalog. It displays information about datasets published and maintained by individual agencies. Data.gov does not: Host or store the underlying data", and that it "automatically 'harvests' that metadata" from agency inventories required by the OPEN Government Data Act. Individual datasets belong in the catalog under their own publishers, not via this entry. API: the old CKAN action API (https://catalog.data.gov/api/3/action/package_search) returned 404 {"message":"Not Found"} on 2026-11-01. The user guide says "The catalog application provides a public JSON API; authentication is not required", documented at https://resources.data.gov/catalog-api/ (HTTP 200); https://catalog.data.gov/search?q=water&format=json returned JSON results with DCAT fields. Daily cadence is approximate: harvest schedules vary by agency ("daily/weekly/monthly").
+  Licence checked 2026-11-01: Data.gov's Privacy and Website Policies (https://data.gov/privacy-policy/#licensing) say "In most cases, U.S. Federal data available through Data.gov is offered free and without restriction. Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection under 17 U.S.C. § 105", and "Non-federal data available through Data.gov may have different licensing ... Check the 'Access and Use Information' section on each dataset page". The metadata is supplied by agencies and harvested; the public-domain reading applies to the federal records.
