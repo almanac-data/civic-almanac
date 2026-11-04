@@ -34,7 +34,7 @@ fingerprint:
   lead_hash: c345eb9d619d0e925b5b6a05190d16c34840ee925c0899182c6bc83bd7fa1489
   lead_algo: sha256
 observed:
-  checked: '2026-11-03'
+  checked: '2026-11-04'
   reachable: true
   http_status: 200
   final_url: https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/
