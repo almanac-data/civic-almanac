@@ -44,7 +44,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.census.gov/topics/public-sector/voting.html",
@@ -95,7 +95,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://api.congress.gov/",
@@ -146,7 +146,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://catalog.data.gov/",
@@ -199,7 +199,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.eac.gov/research-and-data",
@@ -251,7 +251,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://transparency-register.europa.eu/index_en",
@@ -302,7 +302,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://results.elections.europa.eu/en/",
@@ -355,7 +355,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.fec.gov/data/",
@@ -409,7 +409,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://unblock.federalregister.gov/",
@@ -462,7 +462,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.gao.gov/reports-testimonies",
@@ -517,7 +517,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.govinfo.gov/",
@@ -575,7 +575,7 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://oversight.house.gov/release/oversight-committee-releases-epstein-records-provided-by-the-department-of-justice/",
@@ -642,7 +642,7 @@
         "lead_algo": "sha256"
       },
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://oversight.house.gov/release/oversight-committee-releases-records-provided-by-the-epstein-estate-chairman-comer-provides-statement/",
@@ -704,7 +704,7 @@
       "status_since": "2026-10-31",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.idea.int/data-tools/data/voter-turnout-database",
@@ -755,7 +755,7 @@
       ],
       "status": "live",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://catalog.archives.gov/",
@@ -807,7 +807,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.regulations.gov/",
@@ -855,7 +855,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 403,
         "final_url": "https://www.electoralcommission.org.uk/research-reports-and-data",
@@ -907,7 +907,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://search.electoralcommission.org.uk/",
@@ -959,7 +959,7 @@
       "status_since": "2026-11-01",
       "status_source": "curator",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://lda.gov/api/",
@@ -1013,7 +1013,7 @@
       "status_since": "2026-06-29",
       "status_source": "auto",
       "observed": {
-        "checked": "2026-11-02",
+        "checked": "2026-11-03",
         "reachable": true,
         "http_status": 200,
         "final_url": "https://www.usaspending.gov/",
