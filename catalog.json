@@ -51,6 +51,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104212138/https://www.census.gov/topics/public-sector/voting.html",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (national and state)",
         "temporal": "1964-present (national elections)",
@@ -102,6 +112,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261022170252/https://api.congress.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-22",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States Congress",
         "temporal": "multiple Congresses (coverage varies by data type)",
@@ -153,6 +173,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104212628/https://catalog.data.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States (federal, with some state, local and university sources)",
         "temporal": "current catalog (launched May 2009)",
@@ -206,6 +236,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261102222458/https://www.eac.gov/research-and-data",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-02",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States (states + territories)",
         "temporal": "2004-present",
@@ -258,6 +298,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213122/https://transparency-register.europa.eu/index_en",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "European Union institutions (registrants worldwide)",
         "temporal": "current register, with archived snapshots from 2016 on data.europa.eu",
@@ -309,6 +359,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261021165933/https://results.elections.europa.eu/en/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-10-21",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "EU member states",
         "temporal": "2024 European elections (with historical results back to 1979 on the site)",
@@ -362,6 +422,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104213620/https://www.fec.gov/data/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "1980-present",
@@ -418,6 +488,16 @@
         ],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261101232914/https://www.federalregister.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-01",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "1994-present (online)",
@@ -469,6 +549,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261104013247/https://www.gao.gov/reports-testimonies",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-04",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: a capture it requested from Save Page Now."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "varies",
@@ -524,6 +614,16 @@
         "redirect_chain": [],
         "fingerprint_result": "no-baseline"
       },
+      "recovery": [
+        {
+          "via": "wayback",
+          "url": "https://web.archive.org/web/20261102143425/https://www.govinfo.gov/",
+          "authenticity": "timestamped",
+          "permission": "ok",
+          "captured": "2026-11-02",
+          "notes": "Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0)."
+        }
+      ],
       "coverage": {
         "spatial": "United States",
         "temporal": "1990s-present (varies)",
