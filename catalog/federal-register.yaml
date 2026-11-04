@@ -37,6 +37,13 @@ observed:
   redirect_chain:
   - https://unblock.federalregister.gov
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261101232914/https://www.federalregister.gov/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-01'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-04: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United States
   temporal: 1994-present (online)
