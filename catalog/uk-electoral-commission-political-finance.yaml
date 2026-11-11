@@ -34,6 +34,13 @@ observed:
   final_url: https://search.electoralcommission.org.uk/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261005205230/https://search.electoralcommission.org.uk/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-05'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 200).'
 coverage:
   spatial: United Kingdom (GB and NI registers)
   temporal: varies by register (Q2 2026 donations and October 2026 regulated donee donations latest seen)

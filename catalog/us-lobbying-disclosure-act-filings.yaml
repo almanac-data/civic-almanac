@@ -34,6 +34,13 @@ observed:
   final_url: https://lda.gov/api/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261111222314/https://lda.gov/api/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-11'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: a capture it requested from Save Page Now.'
 coverage:
   spatial: United States (federal lobbying)
   temporal: filings from 1999; LD-203 contributions from 2008
