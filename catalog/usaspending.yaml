@@ -36,6 +36,13 @@ observed:
   final_url: https://www.usaspending.gov/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261109055418/https://www.usaspending.gov/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-11-09'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United States
   temporal: 2001-present

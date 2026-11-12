@@ -31,6 +31,13 @@ observed:
   final_url: https://www.electoralcommission.org.uk/research-reports-and-data
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20251118014955/https://www.electoralcommission.org.uk/research-reports-and-data
+  authenticity: timestamped
+  permission: ok
+  captured: '2025-11-18'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 0).'
 coverage:
   spatial: United Kingdom (England, Scotland, Wales, Northern Ireland)
   temporal: varies by election (2026 Scottish Parliament, Senedd and English local election reports seen)

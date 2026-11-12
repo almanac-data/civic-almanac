@@ -34,6 +34,13 @@ observed:
   final_url: https://www.regulations.gov/
   redirect_chain: []
   fingerprint_result: no-baseline
+recovery:
+- via: wayback
+  url: https://web.archive.org/web/20261029140829/https://www.regulations.gov/
+  authenticity: timestamped
+  permission: ok
+  captured: '2026-10-29'
+  notes: 'Recorded by scripts/capture_archives.py on 2026-11-11: the newest existing capture (Save Page Now returned 520).'
 coverage:
   spatial: United States (participating federal agencies)
   temporal: varies by agency and docket
