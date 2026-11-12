@@ -28,7 +28,7 @@ format:
 - json
 status: live
 observed:
-  checked: '2026-11-11'
+  checked: '2026-11-12'
   reachable: true
   http_status: 200
   final_url: https://catalog.archives.gov/
